@@ -2,6 +2,7 @@
   "name": "create-cozyfex-app",
   "version": "1.0.0",
   "author": "CozyFex <cozyfex@gmail.com>",
+  "description": "This project for create project by CozyFex templates.",
   "keywords": [
     "create",
     "npx create"
