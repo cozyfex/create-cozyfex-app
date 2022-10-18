@@ -1,23 +1,33 @@
 {
   "name": "create-cozyfex-app",
   "version": "1.0.0",
-  "description": "",
+  "author": "CozyFex <cozyfex@gmail.com>",
+  "keywords": [
+    "create",
+    "npx create"
+  ],
+  "license": "MIT",
   "main": "./index.js",
   "bin": {
     "create-cozyfex-app": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cozyfex/create-cozyfex-app"
+  },
+  "bugs": {
+    "url": "https://github.com/cozyfex/create-cozyfex-app/issues"
+  },
+  "homepage": "https://github.com/cozyfex/create-cozyfex-app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "cli-color": "^2.0.3",
     "rimraf": "^3.0.2",
     "yargs": "^17.6.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
