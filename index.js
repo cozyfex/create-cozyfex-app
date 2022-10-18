@@ -44,7 +44,7 @@ const createProjectDirectory = (projectPath) => {
 const main = async () => {
   try {
     if (argv._.length) {
-      projectName = argv._[0];
+      projectName = argv._[0].toString();
       console.log(`The project directory is ${clc.yellowBright(projectName)}.`);
     }
 
