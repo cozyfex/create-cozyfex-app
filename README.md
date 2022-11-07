@@ -9,7 +9,7 @@
 ### Default Template
 
 - The default template
-  is [vite-react-typescript-recoil-query](https://github.com/cozyfex/vite-react-typescript-recoil-query).
+  is [NextJS + TypeScript + Recoil + ReactQuery](https://github.com/cozyfex/next-typescript-recoil-reactquery).
 - The project directory is the template name by default.
 
 ```shell
@@ -33,6 +33,11 @@ npx create-cozyfex-app -t vite-react-typescript-recoil-query
 ```shell
 npx create-cozyfex-app projectDirectory -t vite-react-typescript-recoil-query
 ```
+
+### Template List
+
+- [next](https://github.com/cozyfex/next-typescript-recoil-reactquery) (default)
+- [vite](https://github.com/cozyfex/vite-react-typescript-recoil-query)
 
 ### Help
 
