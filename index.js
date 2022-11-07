@@ -7,7 +7,8 @@ const path = require('path');
 const fs = require('fs');
 const clc = require('cli-color');
 const yargs = require('yargs');
-let templateName = 'vite-react-typescript-recoil-query';
+// let templateName = 'vite-react-typescript-recoil-query';
+let templateName = 'next-typescript-recoil-reactquery';
 let projectName = templateName;
 let gitRepo = `https://github.com/cozyfex/${templateName}`;
 
@@ -52,6 +53,14 @@ const main = async () => {
       switch (argv.template) {
         case 'vite-react-typescript-recoil-query':
           templateName = 'vite-react-typescript-recoil-query';
+          gitRepo = `https://github.com/cozyfex/${templateName}`;
+          break;
+        case 'react':
+          templateName = 'vite-react-typescript-recoil-query';
+          gitRepo = `https://github.com/cozyfex/${templateName}`;
+          break;
+        case 'next':
+          templateName = 'next-typescript-recoil-reactquery';
           gitRepo = `https://github.com/cozyfex/${templateName}`;
           break;
         default:
