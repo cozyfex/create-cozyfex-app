@@ -22,7 +22,7 @@ const argv = yargs
   })
   .option('template', {
     alias: 't',
-    description: 'Tell the template name.\nTemplate List',
+    description: 'Tell the template name',
     type: 'string',
   })
   .help()
